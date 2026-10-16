@@ -72,6 +72,13 @@
       background:linear-gradient(135deg,#29292f,#111114 65%,#3b0808); color:#fff; }
     .visual .visual-title { font-weight:1000; text-transform:uppercase; font-size:clamp(18px,2.5vw,27px); line-height:1.1; }
     .visual .visual-sub { color:#ff7772; font-size:10px; letter-spacing:2px; margin-top:8px; }
+    .priest-art { position:relative; overflow:hidden; min-height:200px; background:radial-gradient(ellipse at 70% 45%,rgba(225,6,0,.55),transparent 38%),linear-gradient(135deg,#09090b 0%,#1a1012 52%,#400604 100%); }
+    .priest-art:before { content:""; position:absolute; right:12%; top:10%; width:34%; height:90%; border-radius:48% 48% 12% 12%; background:linear-gradient(90deg,#080809,#262126 45%,#050506); opacity:.9; transform:skew(-8deg); box-shadow:0 0 45px rgba(225,6,0,.22); }
+    .priest-glow { position:absolute; right:15%; top:7%; width:25%; height:24%; border-radius:50%; background:#080809; box-shadow:0 0 0 8px rgba(225,6,0,.16),0 0 36px rgba(225,6,0,.45); }
+    .priest-art-copy { position:relative; z-index:1; width:72%; text-align:left; padding:20px 4px 20px 10px; }
+    .priest-art-copy span { display:block; color:#ff5b56; font-size:9px; font-weight:900; letter-spacing:2px; margin-bottom:10px; }
+    .priest-art-copy strong { display:block; font-size:clamp(19px,2.3vw,28px); line-height:1.02; letter-spacing:-.5px; }
+    .priest-art-copy small { display:block; color:#d2bfc0; font-size:8px; letter-spacing:1.2px; margin-top:12px; }
     .video-feature { display:grid; grid-template-columns:1.3fr 1fr; gap:26px; align-items:center; }
     .video-frame { width:100%; aspect-ratio:16/9; border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#151518; }
     .video-frame iframe { width:100%; height:100%; border:0; }
@@ -140,34 +147,21 @@
       <div class="wrap">
         <div class="section-head">
           <div><div class="eyebrow">The writing desk</div><h2>Articles & Analysis</h2></div>
-          <p>Original writing, considered opinions and reviews. Replace these starter ideas with your own published work.</p>
+          <p>Original opinions, match predictions, show reviews and wrestling discussion from MD Ringside Media.</p>
         </div>
         <div class="grid">
           <article class="card">
-            <div class="visual"><div><div class="visual-title">What Makes<br>a Great Champion?</div><div class="visual-sub">MD RINGSIDE MEDIA</div></div></div>
+            <a href="damien-priest.html" aria-label="Read What’s Next for Damian Priest?" style="text-decoration:none">
+              <div class="visual priest-art" role="img" aria-label="Original dark red and black wrestling arena artwork for the Damian Priest opinion article">
+                <div class="priest-glow"></div>
+                <div class="priest-art-copy"><span>MD RINGSIDE MEDIA</span><strong>WHAT’S NEXT<br>FOR DAMIAN<br>PRIEST?</strong><small>THE RINGSIDE VERDICT · OPINION</small></div>
+              </div>
+            </a>
             <div class="card-body">
-              <div class="category">Opinion · Starter idea</div>
-              <h3>What Makes a WWE World Champion Great?</h3>
-              <p>Explore character, promo ability, in-ring performances and the connection a champion builds with the audience.</p>
-              <a class="text-link" href="#contact">ADD YOUR ARTICLE ↗</a>
-            </div>
-          </article>
-          <article class="card">
-            <div class="visual"><div><div class="visual-title">RAW<br>REVIEW</div><div class="visual-sub">WHAT WORKED · WHAT DIDN'T</div></div></div>
-            <div class="card-body">
-              <div class="category">Review · Starter idea</div>
-              <h3>WWE Raw: The Matches and Moments That Mattered</h3>
-              <p>Review a recent show, explain what stood out and assess how its segments moved storylines forward.</p>
-              <a class="text-link" href="#contact">ADD YOUR ARTICLE ↗</a>
-            </div>
-          </article>
-          <article class="card">
-            <div class="visual"><div><div class="visual-title">Beyond the<br>Match</div><div class="visual-sub">CHARACTER · STORY · CROWD</div></div></div>
-            <div class="card-body">
-              <div class="category">Feature · Starter idea</div>
-              <h3>How WWE Superstars Connect With Fans</h3>
-              <p>Look at how personality, storytelling, promos and memorable rivalries help wrestlers build a following.</p>
-              <a class="text-link" href="#contact">ADD YOUR ARTICLE ↗</a>
+              <div class="category">Opinion · WWE</div>
+              <h3>What’s Next for Damian Priest?</h3>
+              <p>After tensions with R-Truth, what should come next for Priest? A possible Finn Bálor feud, a move to Raw, and a route back towards the main-event picture.</p>
+              <a class="text-link" href="damien-priest.html">READ ARTICLE ↗</a>
             </div>
           </article>
         </div>
