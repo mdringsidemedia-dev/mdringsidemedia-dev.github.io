@@ -1,0 +1,18 @@
+MD RINGSIDE MEDIA — SOCIALS + DISQUS COMMENTS UPDATE
+
+WHAT'S IN THIS ZIP
+- index.html: homepage with social links and an email-updates section placeholder
+- damien-priest.html: Damian Priest article with Disqus comments embed
+- logo.png and damian-priest-image.png: existing site assets
+
+IMPORTANT
+1. The Disqus comments embed is configured with the shortname mdringsidemedia-com.
+2. This ZIP does not automatically publish anything to GitHub. You must upload/replace the files in your GitHub Pages repository.
+3. Upload/replace index.html, damien-priest.html, logo.png and damian-priest-image.png in the root of your existing repository. Do not delete other repository files you still need.
+4. Once GitHub Pages has deployed, open https://mdringsidemedia.com/damien-priest.html and check the comments section. The first load may take a minute or two.
+5. The social links assume these profile URLs: TikTok https://www.tiktok.com/@mdringsidemedia ; Instagram https://www.instagram.com/mdringsidemedia/ ; YouTube https://www.youtube.com/@mdringsidemedia . If any handle URL differs, update that link.
+6. Email subscriptions are NOT live yet. The homepage has a clearly labelled placeholder; Buttondown must be created and its signup form connected before visitors can subscribe. This avoids collecting emails into a form that does not work.
+7. Disqus comments allow people to comment using Disqus and, depending on your settings, as guests. Guest comments may be held for moderation. A commenter email is handled by Disqus; your website does not receive or display it publicly.
+
+NEXT STEP AFTER UPLOAD
+Send a screenshot of the GitHub repository after replacing the four files. Then we can check the live comments, and set up Buttondown for email updates.
